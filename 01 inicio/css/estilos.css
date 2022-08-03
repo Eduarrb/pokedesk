@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  display: block;
+}
+
+.centrar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 94rem;
+}
+.search img {
+  display: block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search__box {
+  margin-top: 3rem;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.search__box input {
+  padding: 1rem;
+  outline: 0;
+  border-radius: 5px;
+  font-size: 1.8rem;
+}
+.search__box a {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  transition: all 0.3s;
+}
+.search__box a:hover {
+  background-color: #c0392b;
+  transition: all 0.3s;
+}
+
+.pokedesk {
+  width: 94rem;
+  position: relative;
+}
+.pokedesk--img {
+  width: 100%;
+}
+.pokedesk__pokemonBox {
+  position: absolute;
+  top: 33%;
+  width: 20%;
+  left: 17.9%;
+}
+.pokedesk__pokemonBox--img {
+  width: 100%;
+}
+.pokedesk__dataBox {
+  position: absolute;
+  top: 36%;
+  right: 12%;
+  width: 26%;
+  font-family: "IBM Plex Mono", monospace;
+}
+.pokedesk__dataBox--nombre {
+  text-align: center;
+  color: #2ecc71;
+  font-size: 2rem;
+}
+.pokedesk__dataBox p {
+  color: white;
+  font-size: 1.3rem;
+}
+.pokedesk__dataBox p strong {
+  color: #2ecc71;
+}
+
+/*# sourceMappingURL=estilos.css.map */
